@@ -11,7 +11,7 @@ services:
   database:
     #Pull the latest mysql image
     image: mysql
-    #Map port 3306 on the mysql container to port 3306 in the host
+    #Map port 3308 on the mysql container to port 3308 in the host
     ports:
       - "3308:3308"
     #Specify where the persisted Data should be stored
