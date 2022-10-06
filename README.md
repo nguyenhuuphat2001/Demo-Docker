@@ -9,10 +9,10 @@
 This project to demo how to build a project use docker.
 
 
-<img width="600" alt="image1" src="assets/docker-dashboard.png" hspace="20">
-<img width="600" alt="image3" src="assets/main.png" hspace="20">
-<img width="600" alt="image5" src="assets/get.png" hspace="20">
-<img width="600" alt="image7" src="assets/post.png" hspace="20">
+<img width="700" alt="image1" src="assets/docker-dashboard.png" hspace="20">
+<img width="700" alt="image2" src="assets/main.png" hspace="20">
+<img width="700" alt="image3" src="assets/get.png" hspace="20">
+<img width="700" alt="image4" src="assets/post.png" hspace="20">
 
 ## Video Demo
 You can have a look with Demo through [the video](https://drive.google.com/file/d/1z95rzWRYfh2SW-ufw-0Oo82UPOePvdob/view?usp=sharing).
@@ -37,12 +37,13 @@ $ docker exec -it demo-docker_database_1 bash
 
 $ mysql -u root -p
 
-$ MYSQL_ROOT_PASSWORD: root
+MYSQL_ROOT_PASSWORD: root ==> password: root
 $ root
 ```
 
 
 The swagger is run on [SWAGGER](http://localhost:5000/swagger/index.html)
+
 
 ## Development Team
 - [Tran Quoc Thang](https://github.com/LucasTran-tq)
